@@ -382,3 +382,72 @@ ul li{
     }
 
 }
+
+/*exhibit*/
+
+video{
+    width: 100%;
+}
+
+.exhibit{
+    display: flex;
+}
+
+#exhibit h1{
+    text-align: center;
+    margin-top: 32px;
+}
+
+@media screen and (max-width:720px) {
+    .mobile{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile h2{
+        display: none;
+    }
+
+    .mobile p{
+        display: none;
+    }
+
+    .container-campus {
+        width: 100%;
+        margin: 0;
+    }
+
+    video{
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    padding: 16px 24px;
+    justify-content: space-between;
+    border-top: 2px solid gainsboro;
+}
+
+footer ul{
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-footer{
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+   .mobile-footer{
+    display: flex;
+   } 
+
+   .pc{
+    display: none;
+   }
+}
+
